@@ -181,12 +181,17 @@ nav a {
 
 .brand {
     float: left;
-    padding: 30px 0 0;
+    padding: 20px 0 0;
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     text-transform: uppercase;
     letter-spacing: 0.3rem;
+}
+
+.brand img{
+    height: 48px;
+    width: 192px;
 }
 
 .brand a {
@@ -425,8 +430,6 @@ a.icon {
 }
 
 #header .header-thumb {
-    background: #ffffff;
-    border: 10px solid #f9f9f9;
     padding: 62px 20px 62px 20px;
 }
 
@@ -438,6 +441,8 @@ a.icon {
     padding: 32px 20px 32px 20px !important;
 }
 
+
+
 .header-one,
 .header-two,
 .header-three,
@@ -448,11 +453,12 @@ a.icon {
     padding-top: 120px !important;
 }
 
+
 .header-one {
     background: url('../images/header-bg.jpg') no-repeat;
     height: 60vh !important;
     min-height: 520px;
-    padding-top: 150px !important;
+    padding-top: 40px !important;
 }
 
 .header-two {
@@ -494,7 +500,7 @@ a.icon {
 }
 
 #portfolio .portfolio-thumb .portfolio-overlay {
-    background: #141414;
+    background: #726550;
     position: absolute;
     top: 0;
     right: 0;
@@ -508,12 +514,18 @@ a.icon {
 }
 
 #portfolio .portfolio-thumb:hover .portfolio-overlay {
-    opacity: 0.9;
+    opacity: 0.8;
 }
 
 #portfolio .portfolio-thumb .portfolio-overlay .portfolio-item {
     text-align: center;
-    padding: 30% 20px 20px;
+    padding: 15% 20px 20px;
+}
+
+#portfolio .portfolio-thumb .portfolio-overlay .portfolio-item hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 2px solid #ffffff;
 }
 
 #portfolio .portfolio-thumb .portfolio-overlay .fa {
@@ -527,7 +539,7 @@ a.icon {
     line-height: 3.5rem;
     text-align: center;
     text-decoration: none;
-    margin-bottom: 4px;
+    margin-bottom: 5px;
 }
 
 /*filter css*/
@@ -876,7 +888,7 @@ footer {
     .header-four,
     .header-five {
         min-height: 380px;
-        padding-top: 80px !important;
+        padding-top: 10px !important;
     }
 
     #about .col-md-4,
