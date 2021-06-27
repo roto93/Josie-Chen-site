@@ -479,6 +479,7 @@ a.icon {
 
 /* Portfolio section styles
 /* ========================================== */
+
 #portfolio {
     text-align: center;
     padding-top: 3rem;
@@ -549,6 +550,7 @@ a.icon {
     overflow: hidden;
 }
 
+
 .filter-wrapper li {
     display: inline-block;
     margin: 4px;
@@ -569,13 +571,14 @@ a.icon {
 }
 
 .filter-wrapper li a:active {
-    background: #111112 !important;
+    background: #EB9E7D !important;
 }
 
 .filter-wrapper li a:hover,
 .filter-wrapper li a:focus {
-    background: #111112;
+    background: #EB9E7D;
     color: #ffffff;
+    
 }
 
 /*isotope box css*/
@@ -801,10 +804,10 @@ a.icon {
 }
 
 #contact .col-md-4 {
-    background: #fff;
+    background: transparent;
     padding: 62px 0px 32px 42px;
     position: relative;
-    bottom: -50px;
+    bottom: 0px;
 }
 
 
@@ -812,7 +815,8 @@ a.icon {
 /* footer section styles
 /* ========================================== */
 footer {
-    background: #141414;
+    background: #ffffff;
+    background: url('../images/footer-bg.jpg') no-repeat;
     padding-top: 120px;
     padding-bottom: 120px;
     text-align: center;
@@ -833,7 +837,7 @@ footer {
 .social-icon li a {
     border-radius: 100px;
     border: 1px solid transparent;
-    color: #909090;
+    color: #ffffff;
     font-size: 18px;
     width: 50px;
     height: 50px;
@@ -851,6 +855,7 @@ footer {
 }
 
 .social-icon li a:hover {
+    color: #000;
     background: #ffffff;
 }
 
