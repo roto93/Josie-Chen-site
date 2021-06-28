@@ -438,9 +438,14 @@ a.icon {
 .header-three .header-thumb,
 .header-four .header-thumb,
 .header-five .header-thumb {
-    padding: 32px 20px 32px 20px !important;
+    padding: 32px 16px 32px 16px !important;
 }
-
+.header-four .header-thumb {
+    background-color: rgba(255, 255, 255, 0.14);
+    border-radius: 20px;
+    -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
 
 
 .header-one,
@@ -458,7 +463,8 @@ a.icon {
     background: url('../images/header-bg.jpg') no-repeat;
     height: 60vh !important;
     min-height: 520px;
-    padding-top: 40px !important;
+    padding-top: 20px !important;
+    background-size: cover;
 }
 
 .header-two {
@@ -471,6 +477,7 @@ a.icon {
 
 .header-four {
     background: url('../images/header-four-bg.jpg') no-repeat;
+   
 }
 
 .header-five {
@@ -747,12 +754,34 @@ a.icon {
 /* ========================================== */
 #contact {
     padding-top: 5rem;
-    padding-bottom: 0rem;
+    padding-bottom: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-row {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.contact-btn {
+    font-size: 2rem;
+    text-decoration: underline;
+    color: #EB9E7D;
+}
+
+.contact-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
 }
 
 #contact .fa {
     font-size: 32px;
-    padding-right: 10px;
+    /* padding-right: 10px; */
 }
 
 #contact #map-canvas {
@@ -820,6 +849,7 @@ a.icon {
 footer {
     background: #ffffff;
     background: url('../images/footer-bg.jpg') no-repeat;
+    background-size: cover;
     padding-top: 120px;
     padding-bottom: 120px;
     text-align: center;
