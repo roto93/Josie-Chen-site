@@ -800,6 +800,18 @@ a.icon {
 .skill-cards:nth-child(even){
     background-color: #FFF3F3;
 }
+.about__CV {
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+.cv-cards {
+  
+
+}
 
 @media (max-width:992px) {
     .about__skills{
@@ -922,8 +934,18 @@ a.icon {
 
 .contact-btn {
     font-size: 2rem;
+    padding-right: 1em;
+    font-weight: bold;
     text-decoration: underline;
     color: #EB9E7D;
+}
+
+.contact-btn:hover {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-right: 0.5em;
+    text-decoration: underline;
+    color: #ffc997;
 }
 
 .contact-icon {
