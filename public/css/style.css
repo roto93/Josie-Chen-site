@@ -719,6 +719,14 @@ a.icon {
     line-height: 23px;
 }
 
+.url-link {
+    color:#EB9E7D;
+}
+.url-link:hover{
+    color:#ffc997;
+}
+
+
 @media (max-width:992px) {
     .about__intro {
         flex-direction: column;
@@ -807,10 +815,6 @@ a.icon {
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap:wrap;
-}
-.cv-cards {
-  
-
 }
 
 @media (max-width:992px) {
@@ -1091,6 +1095,7 @@ footer {
 }
 
 
+
 @media (max-width: 768px) {
 
     .brand {
@@ -1140,7 +1145,7 @@ footer {
     .contact-submit {
         width: 70%;
     }
-
+    
 }
 
 @media (max-width: 450px) {
