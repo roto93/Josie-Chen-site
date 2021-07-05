@@ -754,12 +754,13 @@ a.icon {
 }
 
 .about__skills{
-    width: 98%;
+    width: 95%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap:wrap;
+    margin-bottom: 72px;
 }
 
 
@@ -808,14 +809,6 @@ a.icon {
 .skill-cards:nth-child(even){
     background-color: #FFF3F3;
 }
-.about__CV {
-    width: 98%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap:wrap;
-}
 
 @media (max-width:992px) {
     .about__skills{
@@ -830,6 +823,85 @@ a.icon {
         width: 98%;
     }
 }
+
+.about__CV {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+}
+.cv-cards {
+    max-width: 500px;
+}
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  .CV-overlay {
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  .CV-overlay:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    opacity: 0;
+  }
+  
+  .CV-overlay:hover CV-link {
+    opacity: 0;
+  }
+  
+  .CV-link {
+    position: absolute;
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #eb9e7d;
+  }
+  
+  .border {
+    position: relative;
+    display: grid;
+    place-items: center;
+    min-height: 200px;
+    border: 4px solid;
+  }
+  
+  .full-1 {
+    border-image: linear-gradient(45deg, #ff9e9e, #ffd194) 1;
+  }
+  
+  .full-2 {
+    border-image: linear-gradient(45deg, #ffd194, #ff9e9e) 1;
+  }
+
+  @media (max-width:992px) {
+    .about__CV{
+        width: 90%;
+    }
+}
+
 
 /* blog & single post section styles
 /* ========================================== */
