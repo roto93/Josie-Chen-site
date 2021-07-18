@@ -514,6 +514,143 @@ a.icon {
     background: url('../images/header-five-bg.jpg') no-repeat;
 }
 
+/* Recent works section styles
+/* ========================================== */
+.title{
+    margin: 2em 0;
+  }
+  
+  
+  .label-container{
+    display: flex;
+  }
+  
+  .label{
+    background-color: #FCF7F0;
+    color: #9C8A6F;
+    margin: 0em 0.5em 1em 0em;
+    padding:0.5em 1em 0.5em 1em ;
+    border-radius: 50px;
+  }
+  
+  .recent-works-h2{
+      color:black;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;  
+  }
+
+  .recent-works {
+    width: 100%;
+    font-size: 1rem;
+    padding: 3em 0;
+  /*   background-color: lightblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  .recent-works-container {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    max-width: 1200px;
+    font-size: 1em;
+    border: 1px #EB9E7D solid;
+    display: flex;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+  }
+  
+  .recent-works-container:hover{
+    box-shadow:0px 0px 10px #ffc997;
+  }
+  
+  
+  
+  .image__container{
+    width: 48%;
+    overflow:hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  
+  .recent-works-img {
+    width: 100%;
+  /*   min-width:600px */
+  }
+  .recent-works-intro {
+    width: 48%;
+    padding: 2em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .recent-works-intro {
+    margin-top: 0;
+  }
+  
+  .recent-works-intro-txt {
+    font-size: 1rem;
+    padding-right: 40px;
+  }
+  
+  .solid-btn {
+    margin-top: 1em;
+    background-color: #EB9E7D;
+    color: #fff;
+    display: inline-block;
+    padding: 0.5em 1em;
+    transition: 0.3s;
+  }
+  
+  .solid-btn:hover{
+    background-color: #ffc997;
+  }
+  
+  @media (max-width: 900px) {
+    .recent-works-container {
+      flex-direction: column;
+      max-width:600px
+    }
+    .recent-works-intro{
+         width: 100%;
+    }
+    .recent-works-intro-txt {
+      text-align: center;
+      padding-left: 40px;
+    }
+    .solid-btn {
+      align-self: center;
+    }
+    .image__container{
+      width: 100%;
+    }
+    .label-container{
+      justify-content: center;
+    }
+  }
+  
+
+
+
+
 /* Portfolio section styles
 /* ========================================== */
 
@@ -588,8 +725,9 @@ a.icon {
     width: 100%;
     margin-bottom: 32px;
     overflow: hidden;
+    padding: 0;
+    margin-left: 0px;
 }
-
 
 .filter-wrapper li {
     display: inline-block;
