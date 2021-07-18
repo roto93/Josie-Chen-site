@@ -610,20 +610,52 @@ a.icon {
     font-size: 1rem;
     padding-right: 40px;
   }
+
+.btn-container{
+    display:flex;
+    margin-right: 1em;
+}
+
   
   .solid-btn {
-    margin-top: 1em;
+    margin: 1em 1em 1em 0em;
+    border: 2px solid #EB9E7D;
     background-color: #EB9E7D;
     color: #fff;
     display: inline-block;
     padding: 0.5em 1em;
     transition: 0.3s;
   }
+
+  .outline-btn{
+    margin: 1em 1em 1em 0em;
+    border: 2px solid #EB9E7D;
+    color: #EB9E7D;
+    display: inline-block;
+    padding: 0.5em 1em;
+    transition: 0.3s;  
+  }
+
+  .btn-h2{
+      margin: 0.2em;
+      color: unset;
+  }
+
   
   .solid-btn:hover{
     background-color: #ffc997;
+    border: 2px solid #ffc997;
+    color: #ffffff;
   }
+  .outline-btn:hover{
+    background-color: #ffc997;
+    border: 2px solid #ffc997;
+    color: #ffffff;
+  }
+
   
+
+
   @media (max-width: 900px) {
     .recent-works-container {
       flex-direction: column;
