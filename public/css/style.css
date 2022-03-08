@@ -62,7 +62,7 @@ h5 {
 }
 
 p {
-    color: #777;
+    color:rgb(104, 104, 104);
     font-size: 16px;
     line-height: 28px;
     word-spacing: 1px;
@@ -876,19 +876,19 @@ a.icon {
 }
 
 .about__intro__img{
-    width: 19%;
+    width: 20%;
     margin-bottom:2em;
-    padding-right: 1em;
+    margin-right: 1em;
 }
 
 .about__intro__content{
-    width: 69%;
+    width: 70%;
     padding:0 1em;
 }
 .about__intro p{
-    color:#000;
-    font-weight: 500;
-    font-size: 18px;
+    color:rgb(104, 104, 104);
+    font-weight: 400;
+    font-size: 14px;
     line-height: 23px;
 }
 
@@ -973,10 +973,10 @@ a.icon {
 }
 
 .skill-cards p{
-    color:#000;
-    font-size: 16px;
+    color:rgb(104, 104, 104);
+    font-size: 14px;
     line-height: 20px;    
-    font-weight: 500;
+    font-weight: 400;
     width: 90%;
 }
 .skill-cards:nth-child(even){
