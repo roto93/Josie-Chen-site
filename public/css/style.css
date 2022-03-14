@@ -581,7 +581,7 @@ a.icon {
   
   
   .image__container{
-    width: 48%;
+    width: 40%;
     overflow:hidden;
     display: flex;
     justify-content: center;
@@ -596,8 +596,8 @@ a.icon {
   /*   min-width:600px */
   }
   .recent-works-intro {
-    width: 48%;
-    padding: 2em 0;
+    width: 60%;
+    padding: 2em 2em;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -610,7 +610,7 @@ a.icon {
   
   .recent-works-intro-txt {
     font-size: 1rem;
-    padding-right: 40px;
+    /* padding-right: 40px; */
   }
 
 .btn-container{
@@ -622,6 +622,8 @@ a.icon {
   .solid-btn {
     margin: 1em 1em 1em 0em;
     border: 2px solid #EB9E7D;
+    border-radius: 8px;
+    font-weight: 400;
     background-color: #EB9E7D;
     color: #fff;
     display: inline-block;
@@ -630,8 +632,10 @@ a.icon {
   }
 
   .outline-btn{
-    margin: 1em 1em 1em 0em;
+    /* margin: 1em 1em 1em 0em; */
     border: 2px solid #EB9E7D;
+    border-radius: 8px;
+    font-weight: 400;
     color: #EB9E7D;
     display: inline-block;
     padding: 0.5em 1em;
