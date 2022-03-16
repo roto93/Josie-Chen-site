@@ -615,12 +615,12 @@ a.icon {
 
 .btn-container{
     display:flex;
-    margin-right: 1em;
+    margin: 2em 0em;
 }
 
   
   .solid-btn {
-    margin: 1em 1em 1em 0em;
+    margin: 0.5em 0.5em;
     border: 2px solid #EB9E7D;
     border-radius: 8px;
     font-weight: 400;
@@ -632,7 +632,7 @@ a.icon {
   }
 
   .outline-btn{
-    /* margin: 1em 1em 1em 0em; */
+    margin: 0.5em 0.5em;
     border: 2px solid #EB9E7D;
     border-radius: 8px;
     font-weight: 400;
@@ -677,11 +677,17 @@ a.icon {
     .solid-btn {
       align-self: center;
     }
+    .outline-btn {
+        align-self: center;
+      }
     .image__container{
       width: 100%;
     }
     .label-container{
       justify-content: center;
+    }
+    .btn-container{
+      flex-direction: column;
     }
   }
   
@@ -876,7 +882,7 @@ a.icon {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-bottom:72px;
+    margin-bottom:40px;
 }
 
 .about__intro__img{
