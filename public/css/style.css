@@ -313,8 +313,9 @@ a.icon {
 }
 
 .circle {
-    width: 45px;
-    height: 45px;
+    width: 48px;
+    height: 48px;
+    background-color: #FFC997;
     text-align: center;
     margin: 0 auto;
     position: absolute;
@@ -328,12 +329,12 @@ a.icon {
     -moz-transition: all 0.3s ease;
     cursor: pointer;
     z-index: 99;
-    padding: 4px 0 0;
+    /* padding: 4px 0 0; */
 }
 
 .circle i {
     font-size: 36px;
-    color: #111112;
+    color: #fff;
 }
 
 .circle.dark {
@@ -565,7 +566,7 @@ a.icon {
   
   
   .recent-works-container {
-    margin: 2em;
+    margin: 1em;
     display: inline-block;
     justify-content: space-between;
     align-items: center;
@@ -638,6 +639,19 @@ a.icon {
     transition: 0.3s;
   }
 
+  .solid-btn-large {
+    margin: 2em 2em;
+    border: 2px solid #EB9E7D;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: large;
+    background-color: #EB9E7D;
+    color: #fff;
+    display: inline-block;
+    padding: 0.7em 3em;
+    transition: 0.3s;
+  }
+
   .outline-btn{
     margin: 0.5em 0.5em;
     border: 2px solid #EB9E7D;
@@ -665,7 +679,11 @@ a.icon {
     border: 2px solid #ffc997;
     color: #ffffff;
   }
-
+  .solid-btn-large:hover {
+    background-color: #ffc997;
+    border: 2px solid #ffc997;
+    color: #ffffff;
+  }
   
 
 
