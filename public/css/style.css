@@ -150,6 +150,7 @@ img {
 /* ========================================== */
 .nav-container,
 nav {
+    
     overflow: visible;
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
@@ -157,6 +158,7 @@ nav {
 }
 
 nav {
+    
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transition: all 0.3s ease;
@@ -169,6 +171,9 @@ nav a {
 }
 
 .navbar {
+    position: fixed; 
+    width: 100%;
+    z-index: 100;
     background: transparent;
     height: 94px;
     max-height: 94px;
@@ -190,8 +195,8 @@ nav a {
 }
 
 .brand img{
-    height: 48px;
-    width: 192px;
+    height: 56px;
+    width: 56px;
 }
 
 .brand a {
@@ -560,6 +565,7 @@ a.icon {
   
   
   .recent-works-container {
+    margin: 2em;
     display: inline-block;
     justify-content: space-between;
     align-items: center;
@@ -596,6 +602,7 @@ a.icon {
   /*   min-width:600px */
   }
   .recent-works-intro {
+
     width: 60%;
     padding: 2em 2em;
     display: flex;
