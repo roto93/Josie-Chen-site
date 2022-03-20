@@ -486,7 +486,7 @@ a.icon {
 
 
 .header-one {
-    background: url('../images/header-bg.jpg') no-repeat;
+    background: url('../images/header-1-bg.jpg') no-repeat;
     background-position: bottom center;
 }
 @media (max-width:576px) {
@@ -498,7 +498,7 @@ a.icon {
         font-size: 36px;
     }
     .header-one .header-thumb{
-        transform: translateY(-135px)
+        transform: translateY(-100px)
     }
     
 }
